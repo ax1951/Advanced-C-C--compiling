@@ -22,8 +22,8 @@ void mylocalfunction33(void)
     printf("function33\n");
 }
 
-//void FOR_EXPORT printMessage2(void)
-void printMessage2(void)
+void FOR_EXPORT printMessage2(void)
+//void printMessage2(void)
 {
     printf("Running the function exported from the shared library\n");
 }
